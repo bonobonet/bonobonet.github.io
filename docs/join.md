@@ -1,8 +1,8 @@
 Joining the network
 ===================
 
-We are always welcome to having more people join our IRC network by setting up new servers
-all around the world connected over a diverse selection of networks.
+We welcome having more people join our IRC network by setting up new servers all around the
+world, connected over a diverse selection of networks.
 
 Follow the steps below to get linked in:
 
