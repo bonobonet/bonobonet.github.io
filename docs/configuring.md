@@ -17,7 +17,7 @@ This will be so you can acquire the following:
 
 ### Includes
 
-The _Includes_ section is just to bring in some needed configuration files that make sense to be seperated (for reasons of 
+The _Includes_ section is just to bring in some needed configuration files that make sense to be separated (for reasons of 
 modularity)
 
 ```
@@ -44,7 +44,7 @@ me {
 Please fill in the following:
 
 1. `sid "<sid>"`
-	* Where `<sid>` is the server Id you got from one of the network leader's earlier
+	* Where `<sid>` is the server ID you got from one of the network leader's earlier
 2. `info "<description>"`
 	* Where `<description>` can be a short little description of your server
 	* Example: `This is my London-based IRC node`
@@ -58,7 +58,7 @@ Please fill in the following:
 
 You must now add the following block to your config:
 
-**TODO: Fgigure out what to do with this configurarion*
+**TODO: Figure out what to do with this configurarion*
 
 ```
 admin {
@@ -72,9 +72,9 @@ admin {
 
 Classes allow one to affect certain attributes of certain types of connections. For example, we may
 want to change the amount of servers that can link to us from a certain IP address, this would be
-manipulated in the `servers` class. However, we may also want to manioulate, perhaps, how many
+manipulated in the `servers` class. However, we may also want to manipulate, perhaps, how many
 clients may connect to the server, this would be manipulated in the `clients` class. We pretty much
-go with thr default here for both _servers_ and _clients_.
+go with the default here for both _servers_ and _clients_.
 
 #### Client and Server classes
 
@@ -100,7 +100,7 @@ class servers {
 
 #### Operator class
 
-We also give _operators_ higher priveleges (within their own class):
+We also give _operators_ higher privileges (within their own class):
 
 ```
 /* Special class for IRCOps with higher limits */
@@ -156,7 +156,7 @@ Please configure the following:
 	* Here you may set `<name>` to the username (_nick_) to the nickname for the operator
 2. TODO: Mask
 3. `password "<password>"`
-	* Set the `<password>` to the password that will be used to login as operator `<name>`
+	* Set the `<password>` to the password that will be used to log in as operator `<name>`
 4. `swhois "<description>"`
 	* Set the `<description>` here to what will be your description
 
@@ -169,7 +169,7 @@ and server connections.
 
 #### Clients
 
-Here we configure the client connections. We will allow connections (palintext) on port `6667` and TLS
+Here we configure the client connections. We will allow connections (plaintext) on port `6667` and TLS
 connections (secured connections) on port `6697`. Both will listen on all IP addresses.
 
 ```
@@ -245,7 +245,7 @@ You would have obtained these from one of the network leaders.
 
 ## Connection management
 
-We may want to throttle users who reconnect to fast and so forth. Unrealircd provides a nice mechanism for this based on
+We may want to throttle users who reconnect too fast and so forth. Unrealircd provides a nice mechanism for this based on
 the user's reputation.
 
 ```
@@ -465,7 +465,7 @@ drpass {
 
 ## WebIRC (TODO: Move to own section)
 
-If you wish to configure your server for access via a web-based IRC client then you will want to
+If you wish to configure your server for access via a web-based IRC client, then you will want to
 add the following blocks to your configuration file.
 
 ```
