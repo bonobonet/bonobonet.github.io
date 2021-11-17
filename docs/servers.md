@@ -21,7 +21,7 @@ List of servers available over the CRXN network.
 |-----------|-------------|----------|
 | lockdown.bnet | fd08:8441:e254::2 | 6667/6697 (TLS) |
 | reddawn648.bnet | fd96:21ef:a9ba::1 | 6667/6697 (TLS) |
-| rany.bnet | fdfb:1a20:a9bf::1 | 6660/6697 (TLS) |
+| sparrow.bnet | fdfb:1a20:a9bf::1 | 6660/6697 (TLS) |
 | minus.bnet | fdcf:25b5:8c10::1 | 6667/6697 (TLS) |
 | zhoreeq.bnet | fdf1:1dc1:f54d:1::1 | 6667 |
 | columbus.bnet | fd06:3184:2093:0:eff0:c986:ee2a:61b7 | 6667/6697 (TLS) |
@@ -43,6 +43,7 @@ List of servers available over the Yggdrasil network.
 |-----------|-------------|----------|
 | lockdown.bnet | 200:ad55:3db7:b8cf:3aa8:664b:bca3:bd81 | 6667/6697 (TLS) |
 | reddawn648.bnet | 204:fb3e:d9e:9f20:7af1:27ab:6aed:df32 | 6667/6697 (TLS) |
+| sparrow.bnet | 204:208c:fb24:4d76:6162:6b44:9418:2897 | 6660/6697 (TLS) |
 | zhoreeq.bnet | 215:15c:84e0:8dd5:7590:bfcd:61cf:cff7 | 6667 |
 | braveheart.bnet | 300:7232:2b0e:d6e9:216:3eff:fe3c:c82b | 6667/6697 (TLS) |
 | columbus.bnet | 200:e1ad:d2cf:7580:3d78:fce:4ff4:b618 | 6667/6697 (TLS) |
@@ -72,6 +73,5 @@ List of servers available over the I2P network.
 |-----------|-------------|----------|
 | lockdown.bnet | vgbvuawi5y7rh32xxjlqcmsoh6quigdvypqneoidiy7y7x7r2umq.b32.i2p | No SSL/TLS |
 | lockdown.bnet | q4rlhwn34fp4cjvtqa6ohi2r65okaps56vnhjnirudpjpeeqsoga.b32.i2p | SSL/TLS |
-| sparrow.bnet | ufcvvibfphkkhctwl7sopdpujqwrn2mlerlnhgah63e2mkb45wkq.b32.i2p | SSL/TLS |
 | reddawn648.bnet | e3ez3tyqaotkpye2yms347iysdwwqgluxlgzdfg3cqfh4uyv3lba.b32.i2p | No SSL/TLS |
 | reddawn648.bnet | ym2yetvpb7zime5ep6ac7uhmkdivksqkmuutdwtbolku2j5ckcyq.b32.i2p | SSL/TLS |
