@@ -17,7 +17,7 @@ unrealircd genblock
 
 ### Adding the link
 
-You wil now need to add your **peer's** link block to your configuration.
+You will now need to add your **peer's** link block to your configuration.
 
 ---
 
