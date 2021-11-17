@@ -21,7 +21,7 @@ List of servers available over the CRXN network.
 |-----------|-------------|----------|
 | lockdown.bnet | fd08:8441:e254::2 | 6667/6697 (TLS) |
 | reddawn648.bnet | fd96:21ef:a9ba::1 | 6667/6697 (TLS) |
-| rany.bnet | fdfb:1a20:a9bf::1 | 6667/6697 (TLS) |
+| rany.bnet | fdfb:1a20:a9bf::1 | 6660/6697 (TLS) |
 | minus.bnet | fdcf:25b5:8c10::1 | 6667/6697 (TLS) |
 | zhoreeq.bnet | fdf1:1dc1:f54d:1::1 | 6667 |
 | columbus.bnet | fd06:3184:2093:0:eff0:c986:ee2a:61b7 | 6667/6697 (TLS) |
@@ -34,7 +34,6 @@ List of servers available over Tor network.
 |-----------|-------------|----------|
 | lockdown.bnet | i2mfos7qecyzqsuy5kqfihjueql5hcee5c36q3r7an726k6a5gm5hgad.onion | 6667/6697 (TLS) |
 | reddawn648.bnet | 5miy5sqxdzpjhogohd4voclc22ktcgkyjww2rwgs6j7ygsa7tdai7cqd.onion | 6667/6697 (TLS) |
-| rany.bnet | jisbdrptvs334hebgrf5o4ojqvai3qkvh3aqr3tdwub2r5ihx72gcuid.onion | 6667/6697 (TLS) |
 
 ## Yggdrasil
 
