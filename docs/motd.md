@@ -16,7 +16,7 @@ Make sure your _message-of-the-day_ (motd) is set as follows:
 We have a zero tolerance towards rule breaker, so make sure before you start using this network service that you read the rules. They are listed below:
 
     Nothing illegal please, use your common sense.
-    No pornography you degenerate.
+    No pornography, you degenerate.
 
 You can find them here too: http://deavmi.assigned.network/projects/bonobonet/#rules/
 
