@@ -1,0 +1,16 @@
+site_name: BonoboNET
+
+theme: cinder
+
+
+nav:
+    - index.md
+    - rules.md
+    - servers.md
+    - Network:
+        - join.md
+        - Configuration:
+            - peering.md
+            - configuring.md
+            - motd.md
+            - linking.md
