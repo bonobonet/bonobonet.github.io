@@ -1,7 +1,8 @@
 Link directory
 ==============
 
-This is the link-block directory of all people that have open peering policies.
+This is the link-block directory of all people that have open peering policies. Remember to sort out who will `autoconnect` to who. It's not recommended
+that **both** parties `autoconnect`, only one should.
 
 # Africa
 
@@ -10,6 +11,58 @@ All servers located within the African continent.
 ## South Africa
 
 All servers located within the Republic of South Africa.
+
+### lockdown.bnet
+
+Link block:
+
+```
+link lockdown.bnet
+{
+        incoming {
+                mask *;
+        }
+        outgoing {
+                hostname lockdown.bnet;
+                port 6901;
+                options { tls; }
+        }
+        password "J8ZR1mNEal0yHYfoB4hEiE2Y3xrOVlYJrcXIt4M90rM=" { spkifp; }
+        class servers;
+}
+```
+
+Reachable (replace `lockdown.bnet` with either) via:
+
+1. `fd08:8441:e254::2` (CRXN)
+2. `200:ad55:3db7:b8cf:3aa8:664b:bca3:bd81` (Yggdrasil)
+3. `fc54:203d:baa7:5c08:152a:317c:4a2e:8c13` (CJDNS)
+4. `2a04:5b81:2010::10` (Clearnet)
+
+### reddawn.bnet
+
+Link block:
+
+```
+link reddawn648.bnet {
+    incoming {
+        mask *;
+    }
+    outgoing {
+        hostname reddawn648.bnet;
+        port 6901;
+        options { tls; }
+    }
+    password "rde+PDmB9C24x7gFNRI5JLUlxSfSnMiefDUgL0aEkpY=" { spkifp; }
+    class servers;
+}
+```
+
+Reachable (replace `reddawn648.bnet` with either) via:
+
+1. `fd96:21ef:a9ba::1` (CRXN)
+2. `204:fb3e:d9e:9f20:7af1:27ab:6aed:df32` (Yggdrasil)
+3. `2a04:5b81:2011::2` (Clearnet)
 
 ### columbus.bnet
 
@@ -23,7 +76,7 @@ link columbus.bnet {
     outgoing {
         hostname columbus.bnet;
         port 6900;
-        options { tls; autoconnect; }
+        options { tls; }
     }
     password "h0apxxjND4gvaRmWSfVy/MfY9LcRlqEpiDpksijEO70=" { spkifp; }
     class servers;
@@ -53,7 +106,7 @@ link braveheart.bnet {
     outgoing {
         hostname braveheart.bnet;
         port 6900;
-        options { tls; autoconnect; }
+        options { tls; }
     }
     password "1OznndE6OIsB2BeYqqvQ58sVhIneN5ap+zcBRhP22gk=" { spkifp; }
     class servers;
@@ -64,11 +117,7 @@ Reachable (replace `braveheart.bnet` with either) via:
 
 1. `300:7232:2b0e:d6e9:216:3eff:fe3c:c82b` (Yggdrasil)
 
-# Middle East
-
-All servers located within the Middle East.
-
-## Lebanon
+## Germany
 
 ### sparrow.bnet
 
@@ -82,7 +131,7 @@ link sparrow.bnet {
     outgoing {
         hostname sparrow.bnet;
         port 6900;
-        options { tls; autoconnect; }
+        options { tls; }
     }
     password "6HHBeB3YYKBZ+LIH5mhGfynyzT80Wb7MiVDgKjPbh8A=" { spkifp; }
     class servers;

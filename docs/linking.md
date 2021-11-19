@@ -2,7 +2,8 @@ Linking
 =======
 
 We will now begin the process of linking your server with someone else. You firstly need to find
-a node operator willing to peer with you.
+a node operator willing to peer with you. Remember to sort out who will `autoconnect` to who. It's not recommended
+that **both** parties `autoconnect`, only one should.
 
 ## Link blocks
 
