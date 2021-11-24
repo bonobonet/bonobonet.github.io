@@ -72,6 +72,4 @@ List of servers available over the I2P network.
 | Node      |  Address    | Type     |
 |-----------|-------------|----------|
 | lockdown.bnet | vgbvuawi5y7rh32xxjlqcmsoh6quigdvypqneoidiy7y7x7r2umq.b32.i2p | No SSL/TLS |
-| lockdown.bnet | q4rlhwn34fp4cjvtqa6ohi2r65okaps56vnhjnirudpjpeeqsoga.b32.i2p | SSL/TLS |
-| reddawn648.bnet | e3ez3tyqaotkpye2yms347iysdwwqgluxlgzdfg3cqfh4uyv3lba.b32.i2p | No SSL/TLS |
-| reddawn648.bnet | ym2yetvpb7zime5ep6ac7uhmkdivksqkmuutdwtbolku2j5ckcyq.b32.i2p | SSL/TLS |
+| columbus.bnet | vsqv5fzfw6i27ux7uwt33qyqwerqahc7aikfd7cozclvvcddvk4a.b32.i2p | No SSL/TLS |
