@@ -8,6 +8,8 @@ Culture
 
 > Ilja is an extremely beautiful woman. ~rany
 
+> <zhoreeq> ilja is the queen of BNET
+
 ## BurnMJD
 
 A _maverick_ of the BNET scene. We recommend you do not ask this man _"Why is X wrong in the world?"_.
