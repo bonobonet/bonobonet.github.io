@@ -8,7 +8,7 @@ Culture
 
 > Ilja is an extremely beautiful woman. ~rany
 
-> <zhoreeq> ilja is the queen of BNET
+> ilja is the queen of BNET ~zhoreeq
 
 ## BurnMJD
 
@@ -28,8 +28,8 @@ Good ways to start a conversation with `burnmjd`, try using words like these:
 
 Vasily Losev's real name
 
-> \<deavmiI2P\> Vaseline Losex  
-> \<deavmiI2P\> xd
+> deavmiI2P: Vaseline Losex  
+> deavmiI2P: xd
   
 # Technical
 
