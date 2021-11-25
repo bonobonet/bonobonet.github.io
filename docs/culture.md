@@ -1,6 +1,8 @@
 Culture
 =======
 
+BNET has quite a deep _"lore"_ that runs **deep**. This page aims to give you some help when navigating yourself around the network
+in the social sense.
 
 # People
 
