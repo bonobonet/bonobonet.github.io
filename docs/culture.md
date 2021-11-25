@@ -22,6 +22,13 @@ Good ways to start a conversation with `burnmjd`, try using words like these:
 5. fr
 6. bruh
 
+## Vaseline Losex
+
+Vasily Losev's real name
+
+> \<deavmiI2P\> Vaseline Losex  
+> \<deavmiI2P\> xd
+  
 # Technical
 
 ## Read error
