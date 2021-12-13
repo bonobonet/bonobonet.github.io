@@ -9,6 +9,10 @@ nav:
     - servers.md
     - Usage:
         - botty.md
+    - Blog:
+        - OpenBNET: blog/3.md
+        - Services migrated: blog/2.md
+        - New site: blog/1.md
     - Network:
         - join.md
         - Configuration:
