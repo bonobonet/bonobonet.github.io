@@ -18,6 +18,12 @@ connect to over which the IRC daemon provides the needed global state informatio
 We must first install the module such that the shared object file `.so` (the plugin) becomes available for the IRC daemon to dynamically
 link in at runtime whenever it appears in the configuration file (seen in the next step):
 
+To do this you will need to be in your unrealircd source directory where the `unrealircd` binary is present, then run:
+
+```
+./unrealircd module install third/wwwstats
+```
+
 ### Configuring the module
 
 We must now configure both unrealircd to know that the module is available, this is done with the following line:
