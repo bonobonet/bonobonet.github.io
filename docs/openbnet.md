@@ -6,8 +6,7 @@ OpenBNET
 **OpenBNET** is a lightweight daemon that runs a web server that provides an API endpoint for getting information about the global BonoboNET
 IRC network as well as providing a cute little status page regarding this information.
 
-TODO: Setup
-TODO: grab from github
+![](openbnet_home.png)
 
 ## Configuring unrealircd
 
