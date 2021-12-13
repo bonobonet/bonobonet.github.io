@@ -106,7 +106,7 @@ The reply:
 botty: deavmiYgg, natsirt si siht ,dlrow olleH
 ```
 
-### Seraching the web
+### Searching the web
 
 Botty provides the ability to search the web using DuckDuckGo and grabbing the first result. Here we search for the definition of _"Little Endian"_:
 
