@@ -48,7 +48,59 @@ It is important that the `loadmodule` call is done first before using the `wwwst
 
 ## Configuring OpenBNET
 
-1. Grab from git
-2. maybe docker image?
-3. systemd unit if not docker
-4. environment variables settings for network parameters
+This is taken directly from the [OpenBNET GitHub repository](https://github.com/bonobonet/OpenBNET).
+
+### Setting up
+
+You will need the following and can install them easily:
+
+1. `python3`
+2. `flask`
+3. `pip`
+
+```
+apt install python3 python3-pip
+pip3 install flask
+```
+
+You will need to configure the `third/wwwstats` module as well, information on doing so can be found [here](http://deavmi.assigned.network/projects/bonobonet/openbnet/).
+
+### Usage
+
+Firstly grab all the files in this repository, then:
+
+```
+chmod +x obnet.py
+```
+
+The next thing to do will be to set the following environment variables:
+
+* `OPENBNET_BIND_ADDR`
+  *  The addresses to listen on (for the web server)
+* `OPENBNET_BIND_PORT`
+  * The port to listen on (for the web server)
+* `UNREAL_SOCKET_PATH`
+  * This is the path to the unrealircd `third/wwwstats` UNIX domain socket
+
+You can then run it like such:
+
+```
+OPENBNET_BIND_ADDR="::" OPENBNET_BIND_PORT=8081 UNREAL_SOCKET_PATH=/tmp/openbnet.sock ./obnet.py
+```
+
+#### Systemd-unit
+
+There is an example systemd unit file included in the repository as `openbnet.service`
+
+### Custom branding
+
+You can adjust the branding in `obnet.py` by taking a look at the following:
+
+```python
+# Network information
+NET_INFO = {
+    "networkName": "OpenBonobo",
+    "description": "Network statistics for the BonoboNET network",
+    "networkLogo": "open_bnet_banner.png",
+}
+```
