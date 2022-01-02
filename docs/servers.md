@@ -11,6 +11,7 @@ List of clearnet-connected servers.
 |-----------|-------------|----------|
 | lockdown.bnet | 2a04:5b81:2010::10 | 6667/6697 (TLS) |
 | reddawn648.bnet | 41.157.98.109 | 9006 |
+| reddawn648.bnet | 2a04:5b81:2011::2 | 9006 |
 | minus.bnet | 2001:470:1f1d:723:dea6:32ff:fe0d:3444 | 6667/6697 (TLS) |
 
 ## CRXN
