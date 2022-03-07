@@ -22,10 +22,11 @@ List of servers available over the CRXN network.
 |-----------|-------------|----------|
 | lockdown.bnet | fd08:8441:e254::2 | 6667/6697 (TLS) |
 | reddawn648.bnet | fd96:21ef:a9ba::1 | 6667/6697 (TLS) |
-| sparrow.bnet | fdfb:1a20:a9bf::1 | 6660/6697 (TLS) |
 | minus.bnet | fdcf:25b5:8c10::1 | 6667/6697 (TLS) |
 | zhoreeq.bnet | fdf1:1dc1:f54d:1::1 | 6667 |
 | columbus.bnet | fd06:3184:2093:0:eff0:c986:ee2a:61b7 | 6667/6697 (TLS) |
+| bravebeart.bnet | fdf1:1dc1:f54d:9:: | 6667/6697 (TLS) |
+| worcester.bnet | fd08:8441:e254::5 | 6667/6697 (TLS) |
 
 ## Tor
 
@@ -44,10 +45,11 @@ List of servers available over the Yggdrasil network.
 |-----------|-------------|----------|
 | lockdown.bnet | 200:ad55:3db7:b8cf:3aa8:664b:bca3:bd81 | 6667/6697 (TLS) |
 | reddawn648.bnet | 204:fb3e:d9e:9f20:7af1:27ab:6aed:df32 | 6667/6697 (TLS) |
-| sparrow.bnet | 204:208c:fb24:4d76:6162:6b44:9418:2897 | 6660/6697 (TLS) |
 | zhoreeq.bnet | 215:15c:84e0:8dd5:7590:bfcd:61cf:cff7 | 6667 |
 | braveheart.bnet | 300:7232:2b0e:d6e9:216:3eff:fe3c:c82b | 6667/6697 (TLS) |
 | columbus.bnet | 200:e1ad:d2cf:7580:3d78:fce:4ff4:b618 | 6667/6697 (TLS) |
+| worcester.bnet | 200:8101:e046:d91e:d4a2:aad1:f3a0:8ef1 | 6667/6697 (TLS) |
+| gauteng.bnet | 203:5ee1:338e:1fcf:23:e67:6942:8cef | 6667/6697 (TLS) |
 
 ## CJDNS
 
@@ -56,6 +58,7 @@ List of servers available over the CJDNS network.
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
 | lockdown.bnet | fc54:203d:baa7:5c08:152a:317c:4a2e:8c13 | 6667/6697 (TLS) |
+| worcester.bnet | fc2a:99a:94d8:5b33:569d:2b2f:4f9f:354 | 6667/6697 (TLS) |
 
 ## Lokinet
 
@@ -63,8 +66,10 @@ List of servers available over the Lokinet network.
 
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
-| lockdown.bnet | 5yhxp5cg46tafur6mmuhqjqujecfbhswf5p8xi9u8917q6mdfciy.loki | 6667/6697 (TLS) |
+| lockdown.bnet | sh61zhc8xhsmuken9qxnxs7spgdtmxx3x4qyq8orwcoge3k7q3ko.loki | 6667/6697 (TLS) |
 | jeff.bnet | probably.loki | 6667/6697 (TLS) |
+| worcester.bnet | i1g1zk3kraz9hherbrys9oaenux7kjro9c8dwjjtkong4m6eydfy.loki | 6667/6697 (TLS) |
+| braveheart.bnet | kfswfco7mfb38dj7hsm4b8gs13ppjnog886y8zcgzno4jt16cepy.loki | 6667/6697 (TLS) |
 
 ## I2P
 
