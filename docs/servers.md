@@ -79,3 +79,5 @@ List of servers available over the I2P network.
 |-----------|-------------|----------|
 | lockdown.bnet | vgbvuawi5y7rh32xxjlqcmsoh6quigdvypqneoidiy7y7x7r2umq.b32.i2p | No SSL/TLS |
 | columbus.bnet | vsqv5fzfw6i27ux7uwt33qyqwerqahc7aikfd7cozclvvcddvk4a.b32.i2p | No SSL/TLS |
+| braveheart.bnet | ketaqadprhsqs2g47cwfyytsiqknmsy2ioohqt42htrbcsxpbjda.b32.i2p.b32.i2p | No SSL/TLS |
+| gauteng.bnet | 756vri7fovo2rtvynjy5yi3cbkxkap7oh7aggiz6di3s2hagdkwq.b32.i2p | No SSL/TLS |
