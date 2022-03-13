@@ -67,7 +67,7 @@ List of servers available over the Lokinet network.
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
 | lockdown.bnet | sh61zhc8xhsmuken9qxnxs7spgdtmxx3x4qyq8orwcoge3k7q3ko.loki | 6667/6697 (TLS) |
-| jeff.bnet | probably.loki | 6667/6697 (TLS) |
+| gayballs.bnet | probably.loki | No SSL/TLS |
 | worcester.bnet | i1g1zk3kraz9hherbrys9oaenux7kjro9c8dwjjtkong4m6eydfy.loki | 6667/6697 (TLS) |
 | braveheart.bnet | kfswfco7mfb38dj7hsm4b8gs13ppjnog886y8zcgzno4jt16cepy.loki | 6667/6697 (TLS) |
 
