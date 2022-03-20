@@ -13,6 +13,8 @@ List of clearnet-connected servers.
 | reddawn648.bnet | 41.157.98.109 | 9006 |
 | reddawn648.bnet | 2a04:5b81:2011::2 | 9006 |
 | minus.bnet | 2001:470:1f1d:723:dea6:32ff:fe0d:3444 | 6667/6697 (TLS) |
+| honeypot.bnet | 160.20.145.209 | 6667/6697 (TLS) |
+| honeypot.bnet | 2a01:367:c1f2::254 | 6667/6697 (TLS) |
 
 ## CRXN
 
@@ -70,6 +72,7 @@ List of servers available over the Lokinet network.
 | gayballs.bnet | probably.loki | No SSL/TLS |
 | worcester.bnet | i1g1zk3kraz9hherbrys9oaenux7kjro9c8dwjjtkong4m6eydfy.loki | 6667/6697 (TLS) |
 | braveheart.bnet | kfswfco7mfb38dj7hsm4b8gs13ppjnog886y8zcgzno4jt16cepy.loki | 6667/6697 (TLS) |
+| honeypot.bnet | priv.loki | 6667/6697 (TLS) |
 
 ## I2P
 
