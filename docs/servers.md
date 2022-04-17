@@ -52,6 +52,7 @@ List of servers available over the Yggdrasil network.
 | columbus.bnet | 200:e1ad:d2cf:7580:3d78:fce:4ff4:b618 | 6667/6697 (TLS) |
 | worcester.bnet | 200:8101:e046:d91e:d4a2:aad1:f3a0:8ef1 | 6667/6697 (TLS) |
 | gauteng.bnet | 203:5ee1:338e:1fcf:23:e67:6942:8cef | 6667/6697 (TLS) |
+| honeypot.bnet | 200:3bea:7cd5:eb3e:7c81:e7de:a426:41a8 | 6667/6697 (TLS) |
 
 ## CJDNS
 
@@ -84,3 +85,4 @@ List of servers available over the I2P network.
 | columbus.bnet | vsqv5fzfw6i27ux7uwt33qyqwerqahc7aikfd7cozclvvcddvk4a.b32.i2p | No SSL/TLS |
 | braveheart.bnet | ketaqadprhsqs2g47cwfyytsiqknmsy2ioohqt42htrbcsxpbjda.b32.i2p.b32.i2p | No SSL/TLS |
 | gauteng.bnet | 756vri7fovo2rtvynjy5yi3cbkxkap7oh7aggiz6di3s2hagdkwq.b32.i2p | No SSL/TLS |
+| honeypot.bnet | m2t27aqw3ts4mb4vxgfhhgstqk4gzyb6ac5fdnezmsf2xbbtdiiq.b32.i2p:6667 | No SSL/TLS |
