@@ -1,8 +1,8 @@
 Botty
 =====
 
-**Botty** is the official BonoboNET bot written by [rany TODO link](), it's quite a fun bot with a modular design that allows
-for the easy addition of new commands. The source code is available [here TODO link]().
+**Botty** is the official BonoboNET bot written by [`rany`](../../people/#rany, it's quite a fun bot with a modular design that allows
+for the easy addition of new commands. The source code is available [here](https://github.com/rany2/botty).
 
 ## Commands
 
