@@ -37,6 +37,10 @@ We have also updated the peering system such that people can more easily peer. [
 
 The new website, which is finally on [Github](https://github.com/bonobonet/website) and open to pull requests, is nearing completion and finally looks professional. I think a lot of this has helped new users easily find us. In terms of I2P I recall a user mentioning _"I stumbled across it whilst browsing I2P"_ which probably means it was easy enough to navigate - although not to forget that we do have a little advertisement block on the i2pd homepage at `i2pd.i2p`.
 
+### Botty
+
+We cannot forget our great bot written by [`rany`](../../people/#rany), [**botty**](../../botty/)!
+
 ## Future
 
 Some things definately need to be worked on, sucha s making sure OpenBNET is deployed to as many nodes as possible such that we can get a greater view of each node operating in the network.
