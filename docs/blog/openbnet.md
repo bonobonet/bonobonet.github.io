@@ -1,7 +1,11 @@
+---
+title: OpenBNET
+description: Update on the migration of IRC services
+tags: [openbnet, network]
+---
+
 OpenBNET
 ========
-
-_Published at: 13th December 2021_
 
 **OpenBNET** or _OpenBonoboNET_ is a small lightweight Flask-based web app for displaying information about your `unrealircd`-based IRC network.
 
