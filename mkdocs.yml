@@ -9,10 +9,7 @@ nav:
     - servers.md
     - Usage:
         - botty.md
-    - Blog:
-        - OpenBNET: blog/3.md
-        - Services migrated: blog/2.md
-        - New site: blog/1.md
+    - Blog: blog.md
     - Network:
         - join.md
         - Configuration:
@@ -23,3 +20,35 @@ nav:
         - links.md
         - OpenBNET: openbnet.md
     - culture.md
+
+
+plugins:
+  - blogging:
+      features:
+        tags: {}
+      dirs: # The directories to be included
+        - blog
+
+  - search
+  - git-revision-date
+  - print-site
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - admonition
+  - pymdownx.details
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
