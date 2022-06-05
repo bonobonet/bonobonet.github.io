@@ -3,6 +3,7 @@ Rules
 
 * No doxxing.
 * No spamming.
+* No ban evasion.
 * No unsolicited messages.
 * No pornography, you degenerate.
 * No lies and rumors about others.
