@@ -5,8 +5,9 @@ Rules
 * No spamming.
 * No unsolicited messages.
 * No pornography, you degenerate.
-* No rumors and lies about others.
+* No lies and rumors about others.
+* No discussion about or related to drugs.
 * No ethnic, religious, and LGBT-related slurs.
-* Nothing illegal please, use your common sense.
+* No discussion about darknet markets or any black market.
 
 Zero-tolerance policy towards breaking the rules.
