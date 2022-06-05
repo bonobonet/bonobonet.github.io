@@ -25,7 +25,7 @@ The reply:
 +botty: deavmi, My name is Koolerboks
 ```
 
-The following let's you translate a given sentence (TODO: I presume english semantics) to the requested language, here Arabic:
+The following let's you translate a given sentence to the requested language, here Arabic:
 
 ```
 ~rany: .tr:ar ya like jazz?
