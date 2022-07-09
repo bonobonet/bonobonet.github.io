@@ -14,7 +14,7 @@ List of clearnet-connected servers.
 | reddawn648.bnet | 2a04:5b81:2011::2 | 9006 |
 | honeypot.bnet | 160.20.145.209 | 6667/6697 (TLS) |
 | honeypot.bnet | 2a01:367:c1f2::254 | 6667/6697 (TLS) |
-| worcester.bnett | 2a04:5b81:2010::92 | 6667/6697 (TLS) |
+| worcester.bnet | 2a04:5b81:2010::92 | 6667/6697 (TLS) |
 
 ## CRXN
 
