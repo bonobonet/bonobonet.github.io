@@ -65,7 +65,6 @@ List of servers available over the Lokinet network.
 
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
-
 | gayballs.bnet | probably.loki | No SSL/TLS |
 | worcester.bnet | i1g1zk3kraz9hherbrys9oaenux7kjro9c8dwjjtkong4m6eydfy.loki | 6667/6697 (TLS) |
 | braveheart.bnet | kfswfco7mfb38dj7hsm4b8gs13ppjnog886y8zcgzno4jt16cepy.loki | 6667/6697 (TLS) |
@@ -78,7 +77,6 @@ List of servers available over the I2P network.
 
 | Node      |  Address    | Type     |
 |-----------|-------------|----------|
-
 | braveheart.bnet | ketaqadprhsqs2g47cwfyytsiqknmsy2ioohqt42htrbcsxpbjda.b32.i2p.b32.i2p | No SSL/TLS |
 | honeypot.bnet | m2t27aqw3ts4mb4vxgfhhgstqk4gzyb6ac5fdnezmsf2xbbtdiiq.b32.i2p:6667 | No SSL/TLS |
 | worcester.bnet | weskaap:6667 | No SSL/TLS |
