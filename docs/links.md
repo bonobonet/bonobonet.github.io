@@ -116,29 +116,3 @@ link braveheart.bnet {
 Reachable (replace `braveheart.bnet` with either) via:
 
 1. `300:7232:2b0e:d6e9:216:3eff:fe3c:c82b` (Yggdrasil)
-
-## Germany
-
-### sparrow.bnet
-
-Link block:
-
-```
-link sparrow.bnet {
-    incoming {
-        mask *;
-    }
-    outgoing {
-        hostname sparrow.bnet;
-        port 6900;
-        options { tls; }
-    }
-    password "6HHBeB3YYKBZ+LIH5mhGfynyzT80Wb7MiVDgKjPbh8A=" { spkifp; }
-    class servers;
-}
-```
-
-Reachable (replace `sparrow.bnet` with either) via:
-
-1. `fdfb:1a20:a9bf::1` (CRXN)
-2. `204:208c:fb24:4d76:6162:6b44:9418:2897` (Yggdrasil)
