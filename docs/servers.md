@@ -25,6 +25,7 @@ List of servers available over the CRXN network.
 | reddawn648.bnet | fd96:21ef:a9ba::1 | 6667/6697 (TLS) |
 | zhoreeq.bnet | fdf1:1dc1:f54d:1::1 | 6667 |
 | bravebeart.bnet | fdf1:1dc1:f54d:9:: | 6667/6697 (TLS) |
+| ty3r0x.bnet     | fda7:3ae7:e04d:: | 6667/6697 (TLS) |
 
 ## Tor
 
@@ -45,6 +46,7 @@ List of servers available over the Yggdrasil network.
 | braveheart.bnet | 300:7232:2b0e:d6e9:216:3eff:fe3c:c82b | 6667/6697 (TLS) |
 | honeypot.bnet | 200:3bea:7cd5:eb3e:7c81:e7de:a426:41a8 | 6667/6697 (TLS) |
 | reddawn648.bnet | 204:fb3e:d9e:9f20:7af1:27ab:6aed:df32 | 6667/6697 (TLS) |
+| ty3r0x.bnet    | 201:f742:6335:a85d:8378:9b21:1105:d0bf | 6667/6697 (TLS) |
 
 ## CJDNS
 
@@ -74,3 +76,11 @@ List of servers available over the I2P network.
 | braveheart.bnet | ketaqadprhsqs2g47cwfyytsiqknmsy2ioohqt42htrbcsxpbjda.b32.i2p | No SSL/TLS |
 | honeypot.bnet | m2t27aqw3ts4mb4vxgfhhgstqk4gzyb6ac5fdnezmsf2xbbtdiiq.b32.i2p:6667 | No SSL/TLS |
 | worcester.bnet | weskaap:6667 | No SSL/TLS |
+
+## DN42
+
+List of servers available over the DN42 network.
+
+| Node      |  Address    | Port     |
+|-----------|-------------|----------|
+| ty3r0x.bnet | fda7:3ae7:e04d:: | 6667/6697 (TLS) |
