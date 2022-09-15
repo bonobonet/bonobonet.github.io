@@ -23,7 +23,6 @@ List of servers available over the CRXN network.
 |-----------|-------------|----------|
 | worcester.bnet | fd08:8441:e254::5 | 6667/6697 (TLS) |
 | reddawn648.bnet | fd96:21ef:a9ba::1 | 6667/6697 (TLS) |
-| zhoreeq.bnet | fdf1:1dc1:f54d:1::1 | 6667 |
 | bravebeart.bnet | fdf1:1dc1:f54d:9:: | 6667/6697 (TLS) |
 | ty3r0x.bnet     | fda7:3ae7:e04d:: | 6667/6697 (TLS) |
 
@@ -42,7 +41,6 @@ List of servers available over the Yggdrasil network.
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
 | worcester.bnet | 200:8101:e046:d91e:d4a2:aad1:f3a0:8ef1 | 6667/6697 (TLS) |
-| zhoreeq.bnet | 215:15c:84e0:8dd5:7590:bfcd:61cf:cff7 | 6667 |
 | braveheart.bnet | 300:7232:2b0e:d6e9:216:3eff:fe3c:c82b | 6667/6697 (TLS) |
 | honeypot.bnet | 200:3bea:7cd5:eb3e:7c81:e7de:a426:41a8 | 6667/6697 (TLS) |
 | reddawn648.bnet | 204:fb3e:d9e:9f20:7af1:27ab:6aed:df32 | 6667/6697 (TLS) |
@@ -62,7 +60,6 @@ List of servers available over the Lokinet network.
 
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
-| gayballs.bnet | probably.loki | No SSL/TLS |
 | worcester.bnet | i1g1zk3kraz9hherbrys9oaenux7kjro9c8dwjjtkong4m6eydfy.loki | 6667/6697 (TLS) |
 | braveheart.bnet | kfswfco7mfb38dj7hsm4b8gs13ppjnog886y8zcgzno4jt16cepy.loki | 6667/6697 (TLS) |
 | honeypot.bnet | priv.loki | 6667/6697 (TLS) |
