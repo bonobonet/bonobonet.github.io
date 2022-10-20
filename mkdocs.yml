@@ -1,27 +1,26 @@
 site_name: BonoboNET
-site_url: http://deavmi.assigned.network/projects/bonobonet/
+site_url: https://bnet.eu.org/
 
-theme: cinder
-
+theme:
+  name: cinder
 
 nav:
-    - index.md
-    - rules.md
-    - servers.md
-    - Usage:
-        - botty.md
-    - blog.md
-    - Network:
-        - join.md
-        - Configuration:
-            - peering.md
-            - configuring.md
-            - motd.md
-            - linking.md
-        - links.md
-        - OpenBNET: openbnet.md
-    - culture.md
-
+  - index.md
+  - rules.md
+  - servers.md
+  - Usage:
+      - botty.md
+  - blog.md
+  - Network:
+      - join.md
+      - Configuration:
+          - peering.md
+          - configuring.md
+          - motd.md
+          - linking.md
+      - links.md
+      - OpenBNET: openbnet.md
+  - culture.md
 
 plugins:
   - blogging:
