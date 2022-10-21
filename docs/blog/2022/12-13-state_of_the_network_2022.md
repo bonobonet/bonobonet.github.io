@@ -3,6 +3,7 @@ title: State of the Network 2022
 author: Tristan B. Kildaire
 description: Update on the state of the BonoboNET IRC network for 2022
 tags: [stateofthenetwork, sotn, 2022, general]
+date: '13.12.2022'
 ---
 
 State of the Network 2022

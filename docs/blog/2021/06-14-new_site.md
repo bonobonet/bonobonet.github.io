@@ -2,6 +2,7 @@
 title: New website
 description: Welcome to the new website
 tags: [website, admin]
+date: '14.06.2021'
 ---
 
 New site

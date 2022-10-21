@@ -2,6 +2,7 @@
 title: Services migration
 description: Update on the migration of IRC services
 tags: [services, network]
+date: '14.05.2022'
 ---
 
 Services migration

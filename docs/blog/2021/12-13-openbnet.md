@@ -2,6 +2,7 @@
 title: OpenBNET
 description: Update on the migration of IRC services
 tags: [openbnet, network]
+date: '13.12.2021'
 ---
 
 OpenBNET
