@@ -13,7 +13,7 @@ List of clearnet-connected servers.
 | reddawn648.bnet | 2a04:5b81:2011::2 | 9006 |
 | honeypot.bnet | 160.20.145.209 | 6667/6697 (TLS) |
 | honeypot.bnet | 2a01:367:c1f2::254 | 6667/6697 (TLS) |
-| worcester.bnet | 2a04:5b81:2010::92 | 6667/6697 (TLS) |
+| worcester.bnet | worcester.community.networks.deavmi.assigned.network | 6667/6697 (TLS) |
 | merkel.bnet | 2a04:5b81:2060:b00b:72a6:93e8:30fa:5013 | 6667/6697 (TLS) |
 
 ## CRXN
@@ -22,7 +22,7 @@ List of servers available over the CRXN network.
 
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
-| worcester.bnet | fd08:8441:e254::5 | 6667/6697 (TLS) |
+| worcester.bnet | worcester.community.deavmi.crxn | 6667/6697 (TLS) |
 | reddawn648.bnet | fd96:21ef:a9ba::1 | 6667/6697 (TLS) |
 | bravebeart.bnet | fdf1:1dc1:f54d:9:: | 6667/6697 (TLS) |
 | ty3r0x.bnet     | fda7:3ae7:e04d:: | 6667/6697 (TLS) |
@@ -49,21 +49,12 @@ List of servers available over the Yggdrasil network.
 | ty3r0x.bnet    | 201:f742:6335:a85d:8378:9b21:1105:d0bf | 6667/6697 (TLS) |
 | merkel.bnet    | 201:5920:bb25:e003:c9f4:4dd9:df4b:dfef | 6667/6697 (TLS) |
 
-## CJDNS
-
-List of servers available over the CJDNS network.
-
-| Node      |  Address    | Port     |
-|-----------|-------------|----------|
-| worcester.bnet | fc2a:99a:94d8:5b33:569d:2b2f:4f9f:354 | 6667/6697 (TLS) |
-
 ## Lokinet
 
 List of servers available over the Lokinet network.
 
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
-| worcester.bnet | i1g1zk3kraz9hherbrys9oaenux7kjro9c8dwjjtkong4m6eydfy.loki | 6667/6697 (TLS) |
 | braveheart.bnet | kfswfco7mfb38dj7hsm4b8gs13ppjnog886y8zcgzno4jt16cepy.loki | 6667/6697 (TLS) |
 | honeypot.bnet | priv.loki | 6667/6697 (TLS) |
 
