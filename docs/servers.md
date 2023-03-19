@@ -11,7 +11,7 @@ List of clearnet-connected servers.
 |-----------|-------------|----------|
 | reddawn648.bnet | 41.157.98.109 | 9006 |
 | reddawn648.bnet | reddawn648.irc.bnet.eu.org | 9006 |
-| worcester.bnet | worcester.community.networks.deavmi.assigned.network | 6667/6697 (TLS) |
+| worcester.bnet | worcester.irc.bnet.eu.org | 6667/6697 (TLS) |
 
 ## CRXN
 
