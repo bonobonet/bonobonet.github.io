@@ -22,7 +22,8 @@ List of servers available over the CRXN network.
 | worcester.bnet | worcester.community.deavmi.crxn | 6667/6697 (TLS) |
 | reddawn648.bnet | fd96:21ef:a9ba::1 | 6667/6697 (TLS) |
 | bravebeart.bnet | fdf1:1dc1:f54d:9:: | 6667/6697 (TLS) |
-| ty3r0x.bnet     | fda7:3ae7:e04d:: | 6667/6697 (TLS) |
+| ty3r0x.bnet     | fda7:3ae7:e04d::1 | 6667/6697 (TLS) |
+| merkel.bnet     | fdc2:9471:e3ba::1 | 6667/6697 (TLS) |
 
 ## Yggdrasil
 
@@ -58,4 +59,4 @@ List of servers available over the DN42 network.
 
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
-| ty3r0x.bnet | fda7:3ae7:e04d:: | 6667/6697 (TLS) |
+| ty3r0x.bnet | fda7:3ae7:e04d::1 | 6667/6697 (TLS) |
