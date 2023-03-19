@@ -1,5 +1,6 @@
 site_name: BonoboNET
 site_url: https://bnet.eu.org/
+#site_url: http:///projects/bonobonet/
 
 theme:
   name: cinder
