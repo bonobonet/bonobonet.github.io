@@ -4,6 +4,7 @@ Motd
 Make sure your _message-of-the-day_ (motd) is set as follows:
 
 ```
+Welcome to...
 
   ____                    _           _   _ ______ _______ 
  |  _ \                  | |         | \ | |  ____|__   __|
