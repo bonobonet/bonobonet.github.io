@@ -24,3 +24,8 @@ First, you need to find someone who is already running a BonoboNET node and avai
 
 You will then notify either `rany` or `deavmi` and provide details on who you are and who you want to link with. The person
 you want to link with must follow this whole document as well as the others within this [section](join.md).
+
+### Network requirements
+
+We prefer links that run over clearnet IPv6-only - considering most nodes have access to such network connectivity it would make
+sense to get an IPv6 connection for yours if you wish to join.
