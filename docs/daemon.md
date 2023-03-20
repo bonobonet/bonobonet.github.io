@@ -4,17 +4,13 @@ Configuration
 This will provide you the steps in configuring your _unrealircd_ server to be able
 to link into the BonoboNET IRC network.
 
-
-
-## Configuring the files
-
 After building unrealircd you should have a sub-directory named `conf/`, you should
 create a new blank file named `unrealircd.conf` within it. If a file with such name
 already exists then you will need to delete it and create an empty one form scratch.
 
 You are to add the following lines of code in the order that they appear in this tutorial.
 
-### Default modules
+## Default modules
 
 There should be some configuration files created for you by the build process, and
 they should be included by pasting the following into your config:
@@ -27,7 +23,7 @@ include "snomasks.default.conf";
 include "operclass.default.conf";
 ```
 
-### Remote inclusion
+## Remote inclusion
 
 Recall the line you got sent in the e-mail referred to as the _"remote include"_? Well,
 now place that line here:
@@ -37,7 +33,7 @@ now place that line here:
 include "<remote inclusion url>";
 ```
 
-### Server information
+## Server information
 
 You will now personalise the settings of this server by setting the _name_ of your
 server to the one you chose in the e-mail. Along with this a custom **short** description
@@ -66,7 +62,7 @@ admin
 }
 ```
 
-### Operator information
+## Operator information
 
 Since this is _your_ server you will be able to configure an operator account that
 can only be used to gained priveleged control over _your_ server. You should set
@@ -90,11 +86,11 @@ oper <username>
 
 1. It is important you keep the `vhost` set as `administrator.bnet`
 
-### Listening configuration
+## Listening configuration
 
 We now need to configure what ports your server will listen on.
 
-#### Clients
+### Clients
 
 For client connections we will let the server bind to all addresses
 and listen on port `6667`:
@@ -121,7 +117,7 @@ listen
 }
 ```
 
-#### Servers
+### Servers
 
 The servers need to be able to link to each other and they do so over TLS,
 so add the following:
@@ -136,7 +132,7 @@ listen
 }
 ```
 
-### Services configuration
+## Services configuration
 
 There are some restraints we need to include some configuration to allow
 a certain server, namely `services.bnet`, to be able to have special rights
@@ -153,6 +149,8 @@ ulines
 
 TODO: the above should be added into remote config?
 
-### Server parametrs
+## Server parametrs
 
 There are some parameters that are specific to your server whch are required to be set, these are shown below:
+
+<!-- ###  -->
