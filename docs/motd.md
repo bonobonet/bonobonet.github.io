@@ -40,6 +40,8 @@ Check out some of the interesting channels on our network:
 🌐️ #networking             - Networking, routing and so forth
 🌎️ #1                      - Mr. WorldWide/305 fan zone
 
+You can use /join #channel to join one of these.
+
 
 Interested in IRC and maintaining your own node? Then take a look
 at our requirements for becoming one at https://bnet.eu.org/join/ .
