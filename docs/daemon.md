@@ -166,3 +166,38 @@ set
 ```
 
 1. Set the `<admin email address>` here to the same one you used in the `admin {}` block earlier
+
+### TODO: WHatever this is
+
+TODO: Describe
+
+```
+modes-on-connect "+ixw"; /* when users connect, they will get these user modes */
+        modes-on-oper "+xws"; /* when someone becomes IRCOp they'll get these modes */
+        modes-on-join "+nt"; /* default channel modes when a new channel is created */
+        oper-auto-join "#opers"; /* IRCOps are auto-joined to this channel */
+
+	options
+	{
+                hide-ulines; /* hide U-lines in /MAP and /LINKS */
+                show-connect-info; /* show "looking up your hostname" messages on connect */
+        }
+```
+
+1. Say something about field `TODO`
+
+### Maximum channels
+
+You can configure how many channels a single user may be a member of with this parameter:
+
+```
+/* Maximum number of channels a user can be a member of */
+set
+{
+        maxchannelsperuser <number>;
+}
+```
+
+1. Set `<number>` to a positive number
+        * It is recommended you make this reasonably large enough; nobody wants to join a server where they cannot maintain multiple channel memberships
+        * `100` is a good number
