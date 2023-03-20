@@ -60,8 +60,8 @@ of your server, followed by the `sid` you were sent in the e-mail.
 me
 {
         name "<server name>.bnet";
-	info "<short description>";
-	sid <sid>;
+        info "<short description>";
+        sid <sid>;
 }
 ```
 
@@ -96,9 +96,11 @@ oper <username>
         password "<operator password>";
         operclass netadmin;
         swhois "is a Network Administrator";
-        vhost netadmin.bnet;
+        vhost administrator.bnet;
 }
 ```
+
+1. It is important you keep the `vhost` set as `administrator.bnet`
 
 ### Listening configuration
 
