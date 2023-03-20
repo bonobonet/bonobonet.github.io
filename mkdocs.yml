@@ -16,7 +16,8 @@ nav:
       - join.md
       - Configuration:
           - peering.md
-          - configuring.md
+          - credentials.md
+          - daemon.md
           - motd.md
           - linking.md
       - links.md

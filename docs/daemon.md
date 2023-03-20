@@ -4,19 +4,7 @@ Configuration
 This will provide you the steps in configuring your _unrealircd_ server to be able
 to link into the BonoboNET IRC network.
 
-## Contacting the admins
 
-Before you are able to link in you will need to acquire some information from the
-network administrators, you can contact one of the two network administrators
-with a request to join BonoboNET and the server's name that you have chosen
-(this must end with `.bnet`, so `<myName>.bnet`)
-
-1. `deavmi` (deavmi@redxen.eu)
-2. `rany` (ranycrxn@riseup.net)
-
-After contacting a network administrator you will be given two pieces of information,
-one of which will be your `sid` (server identifier) and another will be a so-called
-_"remote include"_ which will be used later in your configuration file.
 
 ## Configuring the files
 
@@ -164,3 +152,7 @@ ulines
 ```
 
 TODO: the above should be added into remote config?
+
+### Server parametrs
+
+There are some parameters that are specific to your server whch are required to be set, these are shown below:
