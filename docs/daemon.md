@@ -193,6 +193,84 @@ set
 }
 ```
 
+### Spam stuff
+
+TODO: Describe
+
+```
+ anti-spam-quit-message-time 10s;
+
+ /* Settings for spam filter */
+        spamfilter
+	{
+                ban-time 1d; /* default duration of a *LINE ban set by spamfilter */
+                ban-reason "Spam/Advertising"; /* default reason */
+                virus-help-channel "#help"; /* channel to use for 'viruschan' action */
+                /* except "#help"; channel to exempt from Spamfilter */
+        }
+```
+
+1. What we can change
+
+Probably should be common maybe not sure
+
+### Restrictions stuff
+
+TODO: Describe
+
+```
+        restrict-commands
+	{
+		list
+		{
+                        connect-delay 60;
+                        exempt-identified yes;
+                        exempt-reputation-score 24;
+                }
+
+		invite
+		{
+                        connect-delay 120;
+                        exempt-identified yes;
+                        exempt-reputation-score 24;
+                }
+	}
+```
+
+1. What we can change
+
+Probably should be common maybe not sure
+
+
+### COnn thrttoe stuff
+
+TODO: desribe
+
+```
+set
+{
+	connthrottle
+	{
+		known-users
+		{
+            		minimum-reputation-score 24;
+            		sasl-bypass yes;
+        	}
+
+		disabled-when
+		{
+            		reputation-gathering 1w;
+        		start-delay 3m;
+	        }
+	}
+}
+```
+
+1. what can we change
+
+I don't know if this can be common config, there was a reason I kept it
+
+
 ### Maximum channels
 
 You can configure how many channels a single user may be a member of with this parameter:
