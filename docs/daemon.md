@@ -169,22 +169,29 @@ set
 
 ### TODO: WHatever this is
 
-TODO: Describe
+The following needs to be set as is:
+
+The following settings should be set as is. They control the modes a user will have set in certain scenarios, what
+modes a channel will have when created also which channel operators (such as you) should join to.
+
+> **TODO**: Rany I suppose these should be in the common config actually?
 
 ```
-modes-on-connect "+ixw"; /* when users connect, they will get these user modes */
-        modes-on-oper "+xws"; /* when someone becomes IRCOp they'll get these modes */
-        modes-on-join "+nt"; /* default channel modes when a new channel is created */
-        oper-auto-join "#opers"; /* IRCOps are auto-joined to this channel */
+/* Modes and oper auto-join */
+set
+{
+        modes-on-connect "+ixw";
+        modes-on-oper "+xws";
+        modes-on-join "+nt";
+        oper-auto-join "#opers";
 
-	options
-	{
-                hide-ulines; /* hide U-lines in /MAP and /LINKS */
-                show-connect-info; /* show "looking up your hostname" messages on connect */
+        options
+        {
+                hide-ulines;
+                show-connect-info;
         }
+}
 ```
-
-1. Say something about field `TODO`
 
 ### Maximum channels
 
