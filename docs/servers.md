@@ -9,9 +9,10 @@ List of clearnet-connected servers.
 
 | Node      |  Address    | Port     |
 |-----------|-------------|----------|
-| reddawn648.bnet | 41.157.98.109 | 9006 |
-| reddawn648.bnet | reddawn648.irc.bnet.eu.org | 9006 |
+| reddawn648.bnet | reddawn648.irc.bnet.eu.org | 6667/6697 |
 | worcester.bnet | worcester.irc.bnet.eu.org | 6667/6697 (TLS) |
+
+<!-- | reddawn648.bnet | 41.157.98.109 | 9006 | -->
 
 ## CRXN
 
