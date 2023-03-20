@@ -153,4 +153,16 @@ TODO: the above should be added into remote config?
 
 There are some parameters that are specific to your server whch are required to be set, these are shown below:
 
-<!-- ###  -->
+### k-line address
+
+The _k-line address_ is the e-mail address a user should use in order to get in contact with the admin of a server regarding a k-line they received on said server. This is set as follows:
+
+```
+/* k-line address */
+set
+{
+        kline-address "<admin email address>";
+}
+```
+
+1. Set the `<admin email address>` here to the same one you used in the `admin {}` block earlier
