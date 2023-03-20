@@ -14,37 +14,28 @@ Welcome to...
  |____/ \___/|_| |_|\___/|_.__/ \___/|_| \_|______|  |_|   
                 The community run IRC network for hackers
 
-=== Rules ===
 
-We have a zero tolerance towards rule breaker, so make sure before you start using this network service that you read the rules. They are listed below:
+By making use of this service you have indicated that you have
+fully read our rules as stated in https://bnet.eu.org/rules/
+and have agreed to them. We have a zero-tolerance policy towards
+rule-breakers.
 
-    Nothing illegal please, use your common sense.
-    No pornography, you degenerate.
 
-You can find them here too: http://deavmi.assigned.network/projects/bonobonet/#rules/
+If you require any assistance then please contact one of the
+network administrators:
 
-=== Places to go, faces to meet ===
+Tristan B. Kildaire: deavmi@redxen.eu
+Rany: ranycrxn@riseup.net
 
-Some notable channels are listed below:
+Alternatively you may check on the #help channel for further
+assistance.
 
-    #general - for general discussion, essentially a lounge
-    #programming - for the hackers
-    #crxn - the CRXN network discussion channel
-    #yggdrasil - Yggdrasil channel
-    #werewolf - play a game of mafia/werewolf with some friends
 
-=== More information ===
+Interested in IRC and maintaining your own node? Then take a look
+at our requirements for becoming one at https://bnet.eu.org/join/ .
 
-If you would like to find out more about the network, keep up-to-date with changes, find more servers for redundancy for your client or learn how to become a BNET node operator then head over to the website: http://deavmi.assigned.network/projects/bonobonet
 
-=== Contact details ===
-
-This server's operator: (*Fill in your name) ((*Fill in your email address))
-
-Network officials:
-
-    Tristan B. Kildaire (deavmi@redxen.eu)
-    Rany (ranycrxn@riseup.net)
+This server's operator: (*Fill in your name) ((*Fill in your email address))   
 ```
 
 And then fill in the following:
