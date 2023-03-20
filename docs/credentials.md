@@ -13,4 +13,6 @@ with a request to join BonoboNET and the server's name that you have chosen
 
 After contacting a network administrator you will be given two pieces of information,
 one of which will be your `sid` (server identifier) and another will be a so-called
-_"remote include"_ which will be used later in your configuration file.
+_"remote include"_ which will be used later in your configuration file. You will also
+be provided with a subdomain in `*.irc.bnet.eu.org` which will be for use with your
+node.
