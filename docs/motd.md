@@ -33,12 +33,12 @@ assistance.
 
 Check out some of the interesting channels on our network:
 
-#general                - The lounge
-#yggdrasil              - The Yggdrasil network router project
-#i2pd                   - The invisiable internet project C++ implementation
-#programming            - Programming channel for C, C++, D, and so forth
-#networking             - Networking, routing and so forth
-#1                      - Mr. WorldWide/305 fan zone
+🏡️ #general                - The lounge
+🍃️ #yggdrasil              - The Yggdrasil network router project
+🟡️ #i2pd                   - The invisiable internet project C++ implementation
+👨‍💻️ #programming            - Programming channel for C, C++, D, and so forth
+🌐️ #networking             - Networking, routing and so forth
+🌎️ #1                      - Mr. WorldWide/305 fan zone
 
 
 Interested in IRC and maintaining your own node? Then take a look
