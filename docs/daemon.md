@@ -270,6 +270,30 @@ set
 
 I don't know if this can be common config, there was a reason I kept it
 
+### yolo
+
+```
+
+/*
+* Misc.
+*/
+
+drpass
+{
+        restart "restart";
+        die "die";
+}
+
+log {
+        source {
+                all;
+                !debug;
+        }
+        destination { syslog; }
+}
+```
+
+
 
 ### Maximum channels
 
@@ -286,3 +310,12 @@ set
 1. Set `<number>` to a positive number
         * It is recommended you make this reasonably large enough; nobody wants to join a server where they cannot maintain multiple channel memberships
         * `100` is a good number
+
+### Links
+
+The last thing you will place in your configuration file is an inclusion for a new file that will be created when you move onto the [Linking](/linking/) section, therefore add the following:
+
+```
+/* Links */
+include "links.conf";
+```
