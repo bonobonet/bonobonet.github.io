@@ -35,8 +35,8 @@ Check out some of the interesting channels on our network:
 
 🏡️ #general                - The lounge
 🍃️ #yggdrasil              - The Yggdrasil network router project
-🟡️ #i2pd                   - The invisiable internet project C++ implementation
-👨‍💻️ #programming            - Programming channel for C, C++, D, and so forth
+🟡️ #i2pd                   - The I2P C++ implementation
+👨‍💻️ #programming            - Programming channel for C, C++, D, etc.
 🌐️ #networking             - Networking, routing and so forth
 🌎️ #1                      - Mr. WorldWide/305 fan zone
 
