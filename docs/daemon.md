@@ -167,7 +167,7 @@ set
 
 1. Set the `<admin email address>` here to the same one you used in the `admin {}` block earlier
 
-### TODO: WHatever this is
+### Unchanging parameters
 
 The following needs to be set as is:
 
