@@ -287,6 +287,22 @@ set
 
 I don't know if this can be common config, there was a reason I kept it
 
+### Maximum channels
+
+You can configure how many channels a single user may be a member of with this parameter:
+
+```
+/* Maximum number of channels a user can be a member of */
+set
+{
+    maxchannelsperuser <number>;
+}
+```
+
+1. Set `<number>` to a positive number
+    * It is recommended you make this reasonably large enough; nobody wants to join a server where they cannot maintain multiple channel memberships
+    * `100` is a good number
+
 ### yolo
 
 ```
@@ -313,23 +329,9 @@ log
 }
 ```
 
+TODO: Do this
 
 
-### Maximum channels
-
-You can configure how many channels a single user may be a member of with this parameter:
-
-```
-/* Maximum number of channels a user can be a member of */
-set
-{
-        maxchannelsperuser <number>;
-}
-```
-
-1. Set `<number>` to a positive number
-        * It is recommended you make this reasonably large enough; nobody wants to join a server where they cannot maintain multiple channel memberships
-        * `100` is a good number
 
 ### Links
 
