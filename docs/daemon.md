@@ -270,15 +270,15 @@ set
 	{
 		known-users
 		{
-            		minimum-reputation-score 24;
-            		sasl-bypass yes;
-        	}
+            minimum-reputation-score 24;
+            sasl-bypass yes;
+        }
 
 		disabled-when
 		{
-            		reputation-gathering 1w;
-        		start-delay 3m;
-	        }
+            reputation-gathering 1w;
+        	start-delay 3m;
+	    }
 	}
 }
 ```
@@ -297,16 +297,19 @@ I don't know if this can be common config, there was a reason I kept it
 
 drpass
 {
-        restart "restart";
-        die "die";
+    restart "restart";
+    die "die";
 }
 
-log {
-        source {
-                all;
-                !debug;
-        }
-        destination { syslog; }
+log
+{
+    source
+    {
+        all;
+        !debug;
+    }
+
+    destination { syslog; }
 }
 ```
 
