@@ -210,8 +210,11 @@ spamfilter
 }
 ```
 
-1. The first option is `anti-spam-quit-message-time` which you can set to some time which represents how (TODO)
+1. The first option is `anti-spam-quit-message-time`
+    * This is to be set to the number of seconds that someone must be connected before using the `/quit` command
+    * If the user uses the command below the bound then it is considered spammy and they will be marked as spammy users
     * We recommend the default of `10s` (10 seconds)
+2. 
 
 1. What we can change
 
