@@ -193,9 +193,9 @@ set
 }
 ```
 
-### Spam stuff
+### Spam protection
 
-TODO: Describe
+The following settings relate to controlling potential spam-like activity on your server.
 
 ```
  anti-spam-quit-message-time 10s;
