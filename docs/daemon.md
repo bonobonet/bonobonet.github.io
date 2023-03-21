@@ -198,15 +198,19 @@ set
 The following settings relate to controlling potential spam-like activity on your server.
 
 ```
-anti-spam-quit-message-time 10s;
-
-/* Settings for spam filter */
-spamfilter
+set
 {
-    ban-time 1d; /* default duration of a *LINE ban set by spamfilter */
-    ban-reason "Spam/Advertising"; /* default reason */
-    virus-help-channel "#help"; /* channel to use for 'viruschan' action */
-    /* except "#help"; channel to exempt from Spamfilter */
+    /* Minimum connection time before valid use of `/QUIT` */
+    anti-spam-quit-message-time 10s;
+
+    /* Settings for spam filter */
+    spamfilter
+    {
+        ban-time 1d; /* default duration of a *LINE ban set by spamfilter */
+        ban-reason "Spam/Advertising"; /* default reason */
+        virus-help-channel "#help"; /* channel to use for 'viruschan' action */
+        /* except "#help"; channel to exempt from Spamfilter */
+    }
 }
 ```
 
