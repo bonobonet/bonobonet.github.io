@@ -198,17 +198,20 @@ set
 The following settings relate to controlling potential spam-like activity on your server.
 
 ```
- anti-spam-quit-message-time 10s;
+anti-spam-quit-message-time 10s;
 
- /* Settings for spam filter */
-        spamfilter
-	{
-                ban-time 1d; /* default duration of a *LINE ban set by spamfilter */
-                ban-reason "Spam/Advertising"; /* default reason */
-                virus-help-channel "#help"; /* channel to use for 'viruschan' action */
-                /* except "#help"; channel to exempt from Spamfilter */
-        }
+/* Settings for spam filter */
+spamfilter
+{
+    ban-time 1d; /* default duration of a *LINE ban set by spamfilter */
+    ban-reason "Spam/Advertising"; /* default reason */
+    virus-help-channel "#help"; /* channel to use for 'viruschan' action */
+    /* except "#help"; channel to exempt from Spamfilter */
+}
 ```
+
+1. The first option is `anti-spam-quit-message-time` which you can set to some time which represents how (TODO)
+    * We recommend the default of `10s` (10 seconds)
 
 1. What we can change
 
