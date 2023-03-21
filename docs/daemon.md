@@ -229,22 +229,25 @@ Probably should be common maybe not sure
 TODO: Describe
 
 ```
-        restrict-commands
+set
+{
+    restrict-commands
 	{
 		list
 		{
-                        connect-delay 60;
-                        exempt-identified yes;
-                        exempt-reputation-score 24;
-                }
+            connect-delay 60;
+            exempt-identified yes;
+            exempt-reputation-score 24;
+        }
 
 		invite
 		{
-                        connect-delay 120;
-                        exempt-identified yes;
-                        exempt-reputation-score 24;
-                }
+            connect-delay 120;
+            exempt-identified yes;
+            exempt-reputation-score 24;
+        }
 	}
+}
 ```
 
 1. What we can change
