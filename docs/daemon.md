@@ -43,9 +43,9 @@ of your server, followed by the `sid` you were sent in the e-mail.
 /* IRC node information */
 me
 {
-        name "<server name>.bnet";
-        info "<short description>";
-        sid <sid>;
+    name "<server name>.bnet";
+    info "<short description>";
+    sid <sid>;
 }
 ```
 
@@ -75,12 +75,12 @@ password that will be used for gaining access to operator status.
 */
 oper <username>
 {
-        class opers;
-        mask *@*;
-        password "<operator password>";
-        operclass netadmin;
-        swhois "is a Network Administrator";
-        vhost administrator.bnet;
+    class opers;
+    mask *@*;
+    password "<operator password>";
+    operclass netadmin;
+    swhois "is a Network Administrator";
+    vhost administrator.bnet;
 }
 ```
 
@@ -99,8 +99,8 @@ and listen on port `6667`:
 /* Client (plaintext) */
 listen
 {
-        ip *;
-        port 6667;
+    ip *;
+    port 6667;
 }
 ```
 
@@ -111,9 +111,9 @@ it such that users can connect ina  secure manner if they so choose to:
 /* Client (TLS) */
 listen
 {
-        ip *;
-        port 6697;
-        options { tls; }
+    ip *;
+    port 6697;
+    options { tls; }
 }
 ```
 
@@ -126,9 +126,9 @@ so add the following:
 /* Server (TLS) */
 listen
 {
-        ip *;
-        port 6900;
-        options { tls; serversonly; }
+    ip *;
+    port 6900;
+    options { tls; serversonly; }
 }
 ```
 
@@ -143,7 +143,7 @@ rules banning the use of nicknames that are used for services.
 /* Give special rights to the IRC services */
 ulines
 {
-        services.bnet;
+    services.bnet;
 }
 ```
 
@@ -161,7 +161,7 @@ The _k-line address_ is the e-mail address a user should use in order to get in 
 /* k-line address */
 set
 {
-        kline-address "<admin email address>";
+    kline-address "<admin email address>";
 }
 ```
 
@@ -180,16 +180,16 @@ modes a channel will have when created also which channel operators (such as you
 /* Modes and oper auto-join */
 set
 {
-        modes-on-connect "+ixw";
-        modes-on-oper "+xws";
-        modes-on-join "+nt";
-        oper-auto-join "#opers";
+    modes-on-connect "+ixw";
+    modes-on-oper "+xws";
+    modes-on-join "+nt";
+    oper-auto-join "#opers";
 
-        options
-        {
-                hide-ulines;
-                show-connect-info;
-        }
+    options
+    {
+            hide-ulines;
+            show-connect-info;
+    }
 }
 ```
 
