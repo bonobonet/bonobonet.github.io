@@ -187,8 +187,8 @@ set
 
     options
     {
-            hide-ulines;
-            show-connect-info;
+        hide-ulines;
+        show-connect-info;
     }
 }
 ```
@@ -218,7 +218,11 @@ set
     * This is to be set to the number of seconds that someone must be connected before using the `/quit` command
     * If the user uses the command below the bound then it is considered spammy and they will be marked as spammy users
     * We recommend the default of `10s` (10 seconds)
-2. 
+2. The `spamfilter` block includes some more in-depth parameters relating to spam
+    * TODO
+    * TODO
+    * TODO
+    * TODO
 
 1. What we can change
 
