@@ -316,7 +316,15 @@ drpass
     restart "restart";
     die "die";
 }
+```
 
+TODO: Do this
+
+### Logging
+
+One can configure where logs are to be sent to along with the verbosity of said logs:
+
+```
 log
 {
     source
@@ -325,13 +333,16 @@ log
         !debug;
     }
 
-    destination { syslog; }
+    destination
+    {
+        syslog;
+    }
 }
 ```
 
-TODO: Do this
-
-
+1. The `source` block defines the filter for logs
+    * We recommend logging `all` - everything but excluding debugging prints (hence the `!debug`)
+2. We almost always suggest have the `destination` be `syslog` as that is where one is most likely to look in the event of any errors
 
 ### Links
 
