@@ -2,12 +2,10 @@
 
 <img src="b_hash_logo.png" width=250 height=250>
 
-🅱️onoboNET
+BonoboNET
 =========
 
-<!-- ### _The community run IRC network for hackers_ -->
-
-### _Happy april fools!_
+### _The community run IRC network for hackers_
 
 </center>
 
