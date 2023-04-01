@@ -259,7 +259,7 @@ set
 Probably should be common maybe not sure
 
 
-### COnn thrttoe stuff
+### Connection throttling
 
 TODO: desribe
 
