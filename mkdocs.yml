@@ -18,6 +18,7 @@ nav:
           - peering.md
           - credentials.md
           - daemon.md
+          - network/monitoring.md
           - motd.md
           - linking.md
       - links.md
