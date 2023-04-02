@@ -376,6 +376,18 @@ set
 1. You must fill in the keys `<key1>`, `<key2>` and `<key3>`
     * You can get these keys once you have applied for a server link by following the [prior steps](/join)
 
+## TODO
+
+TODO: For nickserv and chanserv
+
+```
+ban nick
+{
+        mask "*C*h*a*n*S*e*r*v*";
+        reason "Reserved for Services";
+}
+```
+
 ---
 
 You should next check out how one can setup monitoring of the node itself with [OpenBNET monitoring](/)
