@@ -376,18 +376,40 @@ set
 1. You must fill in the keys `<key1>`, `<key2>` and `<key3>`
     * You can get these keys once you have applied for a server link by following the [prior steps](/network/join)
 
-## TODO
+## Nickname restrictions
 
-TODO: For nickserv and chanserv
+Taking into account the fact that BonoboNET is an IRC network that uses IRC services there are some names which should not be available as nicknames for the average user as they are indicative of IRC services, this section places a restriction such that nobody can `/nick` as any of these.
 
 ```
+/* Don't allow ChanServ to be used */
 ban nick
 {
-        mask "*C*h*a*n*S*e*r*v*";
-        reason "Reserved for Services";
+    mask "*C*h*a*n*S*e*r*v*";
+    reason "Reserved for Services";
+}
+
+/* Don't allow NickServ to be used */
+ban nick
+{
+    mask "*N*i*c*k*S*e*r*v*";
+    reason "Reserved for Services";
+}
+
+/* Don't allow HostServ to be used */
+ban nick
+{
+    mask "*H*o*s*t*S*e*r*v*";
+    reason "Reserved for Services";
+}
+
+/* Don't allow MemoServ to be used */
+ban nick
+{
+    mask "*M*e*m*o*S*e*r*v*";
+    reason "Reserved for Services";
 }
 ```
 
 ---
 
-You should next check out how one can setup monitoring of the node itself with [OpenBNET monitoring](/)
+You should next check out how one can setup monitoring of the node itself with [OpenBNET monitoring](/network/config/monitoring)
