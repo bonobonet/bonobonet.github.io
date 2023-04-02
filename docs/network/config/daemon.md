@@ -412,4 +412,4 @@ ban nick
 
 ---
 
-You should next check out how one can setup monitoring of the node itself with [OpenBNET monitoring](monitoring/)
+You should next check out how one can setup monitoring of the node itself with [OpenBNET monitoring](../monitoring/)
