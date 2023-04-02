@@ -35,7 +35,7 @@ include "<remote inclusion url>";
 
 ## Server information
 
-You will now personalise the settings of this server by setting the _name_ of your
+You will now personalize the settings of this server by setting the _name_ of your
 server to the one you chose in the e-mail. Along with this a custom **short** description
 of your server, followed by the `sid` you were sent in the e-mail.
 
@@ -65,7 +65,7 @@ admin
 ## Operator information
 
 Since this is _your_ server you will be able to configure an operator account that
-can only be used to gained priveleged control over _your_ server. You should set
+can only be used to gained privileged control over _your_ server. You should set
 the nickname for your operator user and put that in `<username>`. Also, set a strong
 password that will be used for gaining access to operator status.
 
@@ -136,7 +136,7 @@ listen
 
 There are some restraints we need to include some configuration to allow
 a certain server, namely `services.bnet`, to be able to have special rights
-aseeing as it provides IRC services to the whole network. We also add another
+seeing as it provides IRC services to the whole network. We also add another
 rules banning the use of nicknames that are used for services.
 
 ```
@@ -151,7 +151,7 @@ TODO: the above should be added into remote config?
 
 ## Server parametrs
 
-There are some parameters that are specific to your server whch are required to be set, these are shown below:
+There are some parameters that are specific to your server which are required to be set, these are shown below:
 
 ### k-line address
 
@@ -169,12 +169,8 @@ set
 
 ### Unchanging parameters
 
-The following needs to be set as is:
-
 The following settings should be set as is. They control the modes a user will have set in certain scenarios, what
 modes a channel will have when created also which channel operators (such as you) should join to.
-
-> **TODO**: Rany I suppose these should be in the common config actually?
 
 ```
 /* Modes and oper auto-join */
@@ -219,18 +215,11 @@ set
     * If the user uses the command below the bound then it is considered spammy and they will be marked as spammy users
     * We recommend the default of `10s` (10 seconds)
 2. The `spamfilter` block includes some more in-depth parameters relating to spam
-    * TODO
-    * TODO
-    * TODO
-    * TODO
+    * We normally don't change any of the settings here and leave them as is
 
-1. What we can change
+### Restrictions
 
-Probably should be common maybe not sure
-
-### Restrictions stuff
-
-TODO: Describe
+One can configure the restriction of commands in a time-based manner using tje `restrict-commands` option as shown below.
 
 ```
 set
@@ -254,14 +243,11 @@ set
 }
 ```
 
-1. What we can change
-
-Probably should be common maybe not sure
-
+We normally leave these settings as is.
 
 ### Connection throttling
 
-TODO: desribe
+One can configure the throttling of connections with the `connthrottle` option as shown below.
 
 ```
 set
@@ -283,9 +269,7 @@ set
 }
 ```
 
-1. what can we change
-
-I don't know if this can be common config, there was a reason I kept it
+We normally leave these settings as is.
 
 ### Maximum channels
 
@@ -352,3 +336,11 @@ The last thing you will place in your configuration file is an inclusion for a n
 /* Links */
 include "links.conf";
 ```
+
+## Cloak keys
+
+TODO: Add section on cloak keys but do not add the actual keys yet
+
+---
+
+You should next check out how one can setup monitoring of the node itself with [OpenBNET monitoring](/)
