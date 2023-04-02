@@ -6,7 +6,7 @@ world, connected over a diverse selection of networks.
 
 Follow the steps below to get linked in:
 
-1. [Additional rules](peering.md)
+1. [Additional rules](../config/peering)
 2. [Configuring unrealircd](configuring.md)
 3. [Setting the motd](motd.md)
 3. [Linking your node](linking.md)
