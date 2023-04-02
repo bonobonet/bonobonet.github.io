@@ -374,7 +374,7 @@ set
 ```
 
 1. You must fill in the keys `<key1>`, `<key2>` and `<key3>`
-    * You can get these keys once you have applied for a server link by following the [prior steps](/join)
+    * You can get these keys once you have applied for a server link by following the [prior steps](/network/join)
 
 ## TODO
 
