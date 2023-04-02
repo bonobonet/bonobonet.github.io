@@ -337,9 +337,44 @@ The last thing you will place in your configuration file is an inclusion for a n
 include "links.conf";
 ```
 
+## Network configuration
+
+This section configures the server's network information:
+
+```
+set
+{
+    network-name            "BonoboNET";
+    default-server          "rany.bnet";
+    services-server         "services.bnet";
+    sasl-server             "services.bnet";
+    stats-server            "stats.example.org";
+    help-channel            "#help";
+    hiddenhost-prefix       "Clk";
+    prefix-quit             "Quit";
+}
+```
+
+There is nothing here which you should change.
+
 ## Cloak keys
 
-TODO: Add section on cloak keys but do not add the actual keys yet
+The cloak keys are required to be the same on all server's participating in the BonoboNET IRC network:
+
+```
+set
+{
+    cloak-keys
+    {
+        "<key1>";
+        "<key2>";
+        "<key3>";
+    }
+}
+```
+
+1. You must fill in the keys `<key1>`, `<key2>` and `<key3>`
+    * You can get these keys once you have applied for a server link by following the [prior steps](/join)
 
 ---
 
