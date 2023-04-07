@@ -12,6 +12,7 @@ List of clearnet-connected servers.
 | reddawn648.bnet | reddawn648.irc.bnet.eu.org | 6667/6697 (TLS) |
 | worcester.bnet  | worcester.irc.bnet.eu.org  | 6667/6697 (TLS) |
 | ty3r0x.bnet     | ty3r0x.irc.bnet.eu.org     | 6667/6697 (TLS) |
+| rany.bnet       | rany.irc.bnet.eu.org       | 6667/6697 (TLS) |
 
 <!-- | reddawn648.bnet | 41.157.98.109 | 9006 | -->
 
