@@ -5,7 +5,7 @@ Below is a list of servers you can use your IRC client to connect to in order to
 
 ## Clearnet
 
-List of clearnet-connected servers.
+List of clearnet-connected servers; all of these servers have IPv6 addresses but only some have IPv4 too; notably `rany.bnet.`
 
 | Node            | Address                    | Port            |
 |-----------------|----------------------------|-----------------|
