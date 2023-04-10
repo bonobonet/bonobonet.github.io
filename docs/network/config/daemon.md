@@ -350,7 +350,7 @@ set
     sasl-server             "services.bnet";
     stats-server            "stats.example.org";
     help-channel            "#help";
-    hiddenhost-prefix       "Clk";
+    hiddenhost-prefix       "cloaked";
     prefix-quit             "Quit";
 }
 ```
