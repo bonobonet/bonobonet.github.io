@@ -22,8 +22,11 @@ nav:
           - network/config/motd.md
           - network/config/linking.md
       - links.md
-      - OpenBNET: openbnet.md
-  - culture.md
+      - OpenBNET: 
+        - openbnet.md
+  - Culture: 
+    - culture.md
+    - gallery.md
 
 plugins:
   - blogging:
