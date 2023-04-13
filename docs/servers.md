@@ -5,13 +5,14 @@ Below is a list of servers you can use your IRC client to connect to in order to
 
 ## Clearnet
 
-List of clearnet-connected servers.
+List of clearnet-connected servers; all of these servers have IPv6 addresses but only some have IPv4 too; notably `rany.bnet.`
 
 | Node            | Address                    | Port            |
 |-----------------|----------------------------|-----------------|
 | reddawn648.bnet | reddawn648.irc.bnet.eu.org | 6667/6697 (TLS) |
 | worcester.bnet  | worcester.irc.bnet.eu.org  | 6667/6697 (TLS) |
 | ty3r0x.bnet     | ty3r0x.irc.bnet.eu.org     | 6667/6697 (TLS) |
+| rany.bnet       | rany.irc.bnet.eu.org       | 6667/6697 (TLS) |
 
 <!-- | reddawn648.bnet | 41.157.98.109 | 9006 | -->
 
@@ -36,6 +37,7 @@ List of servers available over the Yggdrasil network.
 | braveheart.bnet | 300:7232:2b0e:d6e9:216:3eff:fe3c:c82b  | 6667/6697 (TLS) |
 | reddawn648.bnet | 204:fb3e:d9e:9f20:7af1:27ab:6aed:df32  | 6667/6697 (TLS) |
 | ty3r0x.bnet     | 201:f742:6335:a85d:8378:9b21:1105:d0bf | 6667/6697 (TLS) |
+| rany.bnet       | 200:6f99:2afe:41fd:fc3b:b1f7:af9d:f3a0 | 6667/6697 (TLS) |
 
 ## Lokinet
 

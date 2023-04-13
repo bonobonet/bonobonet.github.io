@@ -13,13 +13,14 @@ nav:
       - botty.md
   - blog.md
   - Network:
-      - join.md
+      - network/join.md
       - Configuration:
-          - peering.md
-          - credentials.md
-          - daemon.md
-          - motd.md
-          - linking.md
+          - network/config/peering.md
+          - network/config/credentials.md
+          - network/config/daemon.md
+          - network/config/monitoring.md
+          - network/config/motd.md
+          - network/config/linking.md
       - links.md
       - OpenBNET: openbnet.md
   - culture.md
