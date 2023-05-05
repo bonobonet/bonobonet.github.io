@@ -51,10 +51,11 @@ List of servers available over the Lokinet network.
 
 List of servers available over the I2P network.
 
-| Node            | Address                                                      | Type       |
-|-----------------|--------------------------------------------------------------|------------|
-| braveheart.bnet | ketaqadprhsqs2g47cwfyytsiqknmsy2ioohqt42htrbcsxpbjda.b32.i2p | No SSL/TLS |
-| worcester.bnet  | weskaap:6667                                                 | No SSL/TLS |
+| Node            | Address                                                      	  | Type       |
+|-----------------|-------------------------------------------------------------------|------------|
+| rany.bnet 	  | zet2po3a6pjlsbpgbvlintiwvnpjw6d4bdsem5kcckbqiroebq3q.b32.i2p:6667 | No SSL/TLS |
+| braveheart.bnet | ketaqadprhsqs2g47cwfyytsiqknmsy2ioohqt42htrbcsxpbjda.b32.i2p      | No SSL/TLS |
+| worcester.bnet  | weskaap:6667                                                      | No SSL/TLS |
 
 ## DN42
 
