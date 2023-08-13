@@ -157,6 +157,26 @@ listen
 }
 ```
 
+Lastly we need to create an `allow {}` block. With listeners setup a socket
+is bound which will accept connections at a network transport protocol level
+however once connected we can decide whether to let someone proceed with
+sending us IRC commands, allow blocks control this. We want to let any
+user in from any IP (hence the `*@*`), we want it to apply rules from the
+`clients` class defined earlier and only allow a maximum of a `100` connections
+from the same IP:
+
+```
+/*
+* Allow blocks
+*/
+allow
+{
+    ip *@*;
+    class clients;
+    maxperip 100;
+}
+```
+
 ### Servers
 
 The servers need to be able to link to each other and they do so over TLS,
