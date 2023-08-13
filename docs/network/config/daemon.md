@@ -25,13 +25,9 @@ include "operclass.default.conf";
 
 ## Remote inclusion
 
-Recall the line you got sent in the e-mail referred to as the _"remote include"_? Well,
-now place that line here:
-
-```
-/* Remote configuration base */
-include "<remote inclusion url>";
-```
+This section _used to_ be applicable but we no longer do remote inclusion anumore
+and prefer having the server administrators have their configuration files all
+based locally.
 
 ## Server information
 
@@ -60,6 +56,50 @@ admin
 	"<screen name>";
 	"<email address>";
 }
+```
+
+## Classes
+
+We need to define some classes which are effectively names used to refer to a bunch
+of settings pertaining to connection management in terms of queueing. We shall define
+these for:
+
+1. `clients`
+    * Affects ordinary clients
+2. `opers`
+    * Affects those logged in as oper
+3. `servers`
+    * Affects communication for server-to-server (S2S) links
+
+These are defined in order below:
+
+```
+/* Client class */
+class clients
+{
+        pingfreq 90;
+        maxclients 1000;
+        sendq 200k;
+        recvq 8000;
+};
+
+/* Oper class */
+class opers
+{
+        pingfreq 90;
+        maxclients 50;
+        sendq 1M;
+        recvq 8000;
+};
+
+/* Server class */
+class servers
+{
+    pingfreq 60;
+    connfreq 30;
+    maxclients 100;
+    sendq 20M;
+};
 ```
 
 ## Operator information
