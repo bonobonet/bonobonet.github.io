@@ -77,19 +77,19 @@ These are defined in order below:
 /* Client class */
 class clients
 {
-        pingfreq 90;
-        maxclients 1000;
-        sendq 200k;
-        recvq 8000;
+    pingfreq 90;
+    maxclients 1000;
+    sendq 200k;
+    recvq 8000;
 };
 
 /* Oper class */
 class opers
 {
-        pingfreq 90;
-        maxclients 50;
-        sendq 1M;
-        recvq 8000;
+    pingfreq 90;
+    maxclients 50;
+    sendq 1M;
+    recvq 8000;
 };
 
 /* Server class */
