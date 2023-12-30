@@ -23,6 +23,17 @@ include "snomasks.default.conf";
 include "operclass.default.conf";
 ```
 
+## Cloaking module
+
+A cloaking module needs to be loaded, I have decided to use the
+`cloak_md5` module, which can be loaded by placing this directive
+in your config file:
+
+```
+/* Need to use _some_ cloaking module */
+loadmodule "cloak_md5";
+```
+
 ## Remote inclusion
 
 This section _used to_ be applicable but we no longer do remote inclusion anumore
