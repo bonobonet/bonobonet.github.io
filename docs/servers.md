@@ -36,7 +36,7 @@ List of servers available over the Yggdrasil network.
 | worcester.bnet  | 200:8101:e046:d91e:d4a2:aad1:f3a0:8ef1 | 6667/6697 (TLS) |
 | reddawn648.bnet | 204:fb3e:d9e:9f20:7af1:27ab:6aed:df32  | 6667/6697 (TLS) |
 | ty3r0x.bnet     | 201:f742:6335:a85d:8378:9b21:1105:d0bf | 6667/6697 (TLS) |
-| breaveheart.bnet| 219:3cf0:dd1d:47b9:555e:75ac:2ab5:493b | 6667/6697 (TLS) |
+| braveheart.bnet | 219:3cf0:dd1d:47b9:555e:75ac:2ab5:493b | 6667/6697 (TLS) |
 
 ## I2P
 
