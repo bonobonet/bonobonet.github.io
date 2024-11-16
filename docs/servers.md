@@ -16,14 +16,13 @@ List of clearnet-connected servers; all of these servers have IPv6 addresses but
 <!-- | ty3r0x.bnet     | ty3r0x.irc.bnet.eu.org     | 6667/6697 (TLS) | -->
 <!-- | reddawn648.bnet | 41.157.98.109 | 9006 | -->
 
-## CRXN
+<!-- ## CRXN -->
 
-List of servers available over the CRXN network.
+<!-- List of servers available over the CRXN network. -->
 
-| Node            | Address                         | Port            |
-|-----------------|---------------------------------|-----------------|
-| reddawn648.bnet | fd96:21ef:a9ba::1               | 6667/6697 (TLS) |
-
+<!-- | Node            | Address                         | Port            | -->
+<!-- |-----------------|---------------------------------|-----------------| -->
+<!-- | reddawn648.bnet | fd96:21ef:a9ba::1               | 6667/6697 (TLS) | -->
 <!-- | ty3r0x.bnet     | fda7:3ae7:e04d::1               | 6667/6697 (TLS) |-->
 <!-- | worcester.bnet  | worcester.community.deavmi.crxn | 6667/6697 (TLS) | -->
 
