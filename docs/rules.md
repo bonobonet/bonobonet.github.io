@@ -6,6 +6,8 @@ Rules
 * No ban evasion.
 * No unsolicited messages.
 * No pornography, you degenerate.
+* No bots are allowed on the network.
+	* _Unless_ you have permission from an oper to do so
 * No lies and rumors about others.
 * No discussion about or related to drugs.
 * No ethnic, religious, and LGBT-related slurs.
