@@ -7,6 +7,8 @@ Below is a list of servers you can use your IRC client to connect to in order to
 
 List of clearnet-connected servers; all of these servers have IPv6 addresses but only some have IPv4 too; notably `rany.bnet.`
 
+**Preferred Address:** `irc.bnet.eu.org` (Recommended)
+
 | Node            | Address                    | Port            |
 |-----------------|----------------------------|-----------------|
 | rany.bnet       | rany.irc.bnet.eu.org       | 6667/6697 (TLS) |
@@ -29,6 +31,8 @@ List of clearnet-connected servers; all of these servers have IPv6 addresses but
 ## Yggdrasil
 
 List of servers available over the Yggdrasil network.
+
+**Preferred Address:** `y.irc.bnet.eu.org` (Recommended)
 
 | Node            | Address                                | Port            |
 |-----------------|----------------------------------------|-----------------|
