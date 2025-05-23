@@ -6,6 +6,10 @@ in the social sense.
 
 # People
 
+## Compiler
+
+> "you're not good enough to be a compiler" ~rany
+
 ## Ilja
 
 > Ilja is an extremely beautiful woman. ~rany
