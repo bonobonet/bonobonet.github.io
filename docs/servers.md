@@ -43,6 +43,14 @@ List of servers available over the Yggdrasil network.
 
 <!-- | ty3r0x.bnet     | 201:f742:6335:a85d:8378:9b21:1105:d0bf | 6667/6697 (TLS) | -->
 
+## Mycelium
+
+List of servers available over the Mycelium network.
+
+| Node            | Address                                | Port            |
+|-----------------|----------------------------------------|-----------------|
+| pinewood.bnet   | myc.irc.deavmi.assigned.network			   | 6667/6697 (TLS) |
+
 ## I2P
 
 List of servers available over the I2P network.
