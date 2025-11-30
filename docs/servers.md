@@ -30,7 +30,7 @@ List of clearnet-connected servers; all of these servers have IPv6 addresses but
 
 ## Yggdrasil
 
-List of servers available over the Yggdrasil network.
+List of servers available over the [Yggdrasil network](https://yggdrasil-network.github.io/).
 
 **Preferred Address:** `y.irc.bnet.eu.org` (Recommended)
 
@@ -45,7 +45,7 @@ List of servers available over the Yggdrasil network.
 
 ## Mycelium
 
-List of servers available over the Mycelium network.
+List of servers available over the [Mycelium network](https://github.com/threefoldtech/mycelium).
 
 | Node            | Address                                | Port            |
 |-----------------|----------------------------------------|-----------------|
