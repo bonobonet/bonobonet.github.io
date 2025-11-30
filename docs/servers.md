@@ -59,11 +59,3 @@ List of servers available over the I2P network.
 |-----------------|-------------------------------------------------------------------|------------|
 | rany.bnet 	  | zet2po3a6pjlsbpgbvlintiwvnpjw6d4bdsem5kcckbqiroebq3q.b32.i2p:6667 | No SSL/TLS |
 | pinewood.bnet   | weskaap:6667                                                      | No SSL/TLS |
-
-<!-- ## DN42 -->
-
-<!-- List of servers available over the DN42 network. -->
-
-<!-- | Node        | Address           | Port            | -->
-<!-- |-------------|-------------------|-----------------| -->
-<!-- | ty3r0x.bnet | fda7:3ae7:e04d::1 | 6667/6697 (TLS) | -->
