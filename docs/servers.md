@@ -49,7 +49,7 @@ List of servers available over the [Mycelium network](https://github.com/threefo
 
 | Node            | Address                                | Port            |
 |-----------------|----------------------------------------|-----------------|
-| pinewood.bnet   | myc.irc.deavmi.assigned.network			   | 6667/6697 (TLS) |
+| pinewood.bnet   | myc.irc.bnet.eu.org									   | 6667/6697 (TLS) |
 
 ## I2P
 
