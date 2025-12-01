@@ -27,10 +27,10 @@ List of servers available over the [Yggdrasil network](https://yggdrasil-network
 
 | Node            | Address                                | Port            |
 |-----------------|----------------------------------------|-----------------|
-| rany.bnet       | 200:6f99:2afe:41fd:fc3b:b1f7:af9d:f3a0 | 6667/6697 (TLS) |
-| pinewood.bnet   | ygg.services.deavmi.assigned.network   | 6667/6697 (TLS) |
-| reddawn648.bnet | 200:afdc:df1b:374d:8e24:b5ff:5a74:bef8  | 6667/6697 (TLS) |
-| braveheart.bnet | 219:3cf0:dd1d:47b9:555e:75ac:2ab5:493b | 6667/6697 (TLS) |
+| rany.bnet       | y.rany.irc.bnet.eu.org 								 | 6667/6697 (TLS) |
+| pinewood.bnet   | y.pinewood.irc.bnet.eu.org   					 | 6667/6697 (TLS) |
+| reddawn648.bnet | y.reddawn648.irc.bnet.eu.org 					 | 6667/6697 (TLS) |
+| braveheart.bnet | y.braveheart.irc.bnet.eu.org					 | 6667/6697 (TLS) |
 
 <!-- | ty3r0x.bnet     | 201:f742:6335:a85d:8378:9b21:1105:d0bf | 6667/6697 (TLS) | -->
 
