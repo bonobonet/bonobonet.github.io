@@ -5,28 +5,19 @@ Below is a list of servers you can use your IRC client to connect to in order to
 
 ## Clearnet
 
-List of clearnet-connected servers; all of these servers have IPv6 addresses but only some have IPv4 too; notably `rany.bnet.`
+List of clearnet-connected servers. Those marked with a `(6)` have only IPv6
+connectivity; similarly those with `(4)` have only IPv4 connectivity.
 
 **Preferred Address:** `irc.bnet.eu.org` (Recommended)
 
 | Node            | Address                    | Port            |
 |-----------------|----------------------------|-----------------|
-| rany.bnet       | rany.irc.bnet.eu.org       | 6667/6697 (TLS) |
-| reddawn648.bnet | reddawn648.irc.bnet.eu.org | 6667/6697 (TLS) |
-| pinewood.bnet   | pinewood.irc.bnet.eu.org  | 6667/6697 (TLS) |
+| rany.bnet       | rany.irc.bnet.eu.org `(4)` | 6667/6697 (TLS) |
+| reddawn648.bnet | reddawn648.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
+| pinewood.bnet   | pinewood.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
 
 <!-- | ty3r0x.bnet     | ty3r0x.irc.bnet.eu.org     | 6667/6697 (TLS) | -->
 <!-- | reddawn648.bnet | 41.157.98.109 | 9006 | -->
-
-<!-- ## CRXN -->
-
-<!-- List of servers available over the CRXN network. -->
-
-<!-- | Node            | Address                         | Port            | -->
-<!-- |-----------------|---------------------------------|-----------------| -->
-<!-- | reddawn648.bnet | fd96:21ef:a9ba::1               | 6667/6697 (TLS) | -->
-<!-- | ty3r0x.bnet     | fda7:3ae7:e04d::1               | 6667/6697 (TLS) |-->
-<!-- | worcester.bnet  | worcester.community.deavmi.crxn | 6667/6697 (TLS) | -->
 
 ## Yggdrasil
 
