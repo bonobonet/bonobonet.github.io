@@ -47,6 +47,11 @@ to find a list of servers available which you can use to connect to our network!
 
 Before you do so, please make sure you [**read the rules**](rules.md).
 
+## Private Web IRC
+
+Although we have a [public instance](https://try.bnet.eu.org) for general use, you can also request private access
+by asking on `#bnet`. This will allow you to get access on [`webirc.bnet.eu.org`](https://webirc.bnet.eu.org).
+
 ---
 
 ![](irssi_motd.png)
