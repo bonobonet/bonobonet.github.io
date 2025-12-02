@@ -35,6 +35,11 @@ Come and login and then head on over to `#bnet` or `#general` and we can get you
 
 Want to find some more rooms? Type `/list` to get a list of channels.
 
+<br>
+<center>
+	<a href="https://try.bnet.eu.org"><button><h4><b>Chat now</b></h4></button></a>
+</center>
+
 ## Join our IRC network!
 
 Getting connected is very easy to do. Simply head on over to our [Servers](servers.md) page
