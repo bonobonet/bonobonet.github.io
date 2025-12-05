@@ -38,6 +38,8 @@ List of servers available over the [Yggdrasil network](https://yggdrasil-network
 
 List of servers available over the [Mycelium network](https://github.com/threefoldtech/mycelium).
 
+**Preferred Address:** `myc.irc.bnet.eu.org` (Recommended)
+
 | Node            | Address                                | Port            |
 |-----------------|----------------------------------------|-----------------|
 | pinewood.bnet   | myc.pinewood.irc.bnet.eu.org					 | 6667/6697 (TLS) |
