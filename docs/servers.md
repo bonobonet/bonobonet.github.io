@@ -48,7 +48,7 @@ List of servers available over the [Mycelium network](https://github.com/threefo
 
 List of servers available over the I2P network.
 
-| Node            | Address                                                      	    | Type       |
-|-----------------|-------------------------------------------------------------------|------------|
-| rany.bnet 	    | zet2po3a6pjlsbpgbvlintiwvnpjw6d4bdsem5kcckbqiroebq3q.b32.i2p:6667 | No SSL/TLS |
-| pinewood.bnet   | dgqyf32eewigknuxwli6d7n23y72coqgpqb7fcl4tmnzbu3un5dq.b32.i2p:6667 | No SSL/TLS |
+| Node            | Address                                                      	                   | Type       |
+|-----------------|----------------------------------------------------------------------------------|------------|
+| rany.bnet 	    | zet2po3a6pjlsbpgbvlintiwvnpjw6d4bdsem5kcckbqiroebq3q.b32.i2p:6667                | No SSL/TLS |
+| pinewood.bnet   | dgqyf32eewigknuxwli6d7n23y72coqgpqb7fcl4tmnzbu3un5dq.b32.i2p:6667 (pinewood.i2p) | No SSL/TLS |
