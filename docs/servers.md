@@ -16,9 +16,6 @@ connectivity; similarly those with `(4)` have only IPv4 connectivity.
 | reddawn648.bnet | reddawn648.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
 | pinewood.bnet   | pinewood.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
 
-<!-- | ty3r0x.bnet     | ty3r0x.irc.bnet.eu.org     | 6667/6697 (TLS) | -->
-<!-- | reddawn648.bnet | 41.157.98.109 | 9006 | -->
-
 ## Yggdrasil
 
 List of servers available over the [Yggdrasil network](https://yggdrasil-network.github.io/).
@@ -31,8 +28,6 @@ List of servers available over the [Yggdrasil network](https://yggdrasil-network
 | pinewood.bnet   | y.pinewood.irc.bnet.eu.org   					 | 6667/6697 (TLS) |
 | reddawn648.bnet | y.reddawn648.irc.bnet.eu.org 					 | 6667/6697 (TLS) |
 | braveheart.bnet | y.braveheart.irc.bnet.eu.org					 | 6667/6697 (TLS) |
-
-<!-- | ty3r0x.bnet     | 201:f742:6335:a85d:8378:9b21:1105:d0bf | 6667/6697 (TLS) | -->
 
 ## Mycelium
 
