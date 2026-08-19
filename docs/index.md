@@ -59,3 +59,8 @@ by asking on `#bnet`. This will allow you to get access on [`webirc.bnet.eu.org`
 <center>
 <i>The coolest kids on the block</i>
 </center>
+
+<br>
+<br>
+
+You can reach this website at [`bnet.i2p`](http://bnet.i2p) on the I2P network.
