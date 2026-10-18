@@ -10,11 +10,12 @@ connectivity; similarly those with `(4)` have only IPv4 connectivity.
 
 **Preferred Address:** `irc.bnet.eu.org` (Recommended)
 
-| Node            | Address                    | Port            |
-|-----------------|----------------------------|-----------------|
-| rany.bnet       | rany.irc.bnet.eu.org `(4)` | 6667/6697 (TLS) |
-| reddawn648.bnet | reddawn648.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
-| pinewood.bnet   | pinewood.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
+| Node             | Address                    | Port            |
+|------------------|----------------------------|-----------------|
+| rany.bnet        | rany.irc.bnet.eu.org `(4)` | 6667/6697 (TLS) |
+| reddawn648.bnet  | reddawn648.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
+| pinewood.bnet    | pinewood.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
+| mainframe64.bnet | mainframe64.irc.bnet.eu.org `(6)` | 6667/6697 (TLS) |
 
 ## Yggdrasil
 
@@ -22,12 +23,13 @@ List of servers available over the [Yggdrasil network](https://yggdrasil-network
 
 **Preferred Address:** `y.irc.bnet.eu.org` (Recommended)
 
-| Node            | Address                                | Port            |
-|-----------------|----------------------------------------|-----------------|
-| rany.bnet       | y.rany.irc.bnet.eu.org 								 | 6667/6697 (TLS) |
-| pinewood.bnet   | y.pinewood.irc.bnet.eu.org   					 | 6667/6697 (TLS) |
-| reddawn648.bnet | y.reddawn648.irc.bnet.eu.org 					 | 6667/6697 (TLS) |
-| braveheart.bnet | y.braveheart.irc.bnet.eu.org					 | 6667/6697 (TLS) |
+| Node             | Address                               | Port            |
+|------------------|---------------------------------------|-----------------|
+| rany.bnet        | y.rany.irc.bnet.eu.org 							 | 6667/6697 (TLS) |
+| pinewood.bnet    | y.pinewood.irc.bnet.eu.org   				 | 6667/6697 (TLS) |
+| reddawn648.bnet  | y.reddawn648.irc.bnet.eu.org 				 | 6667/6697 (TLS) |
+| braveheart.bnet  | y.braveheart.irc.bnet.eu.org					 | 6667/6697 (TLS) |
+| mainframe64.bnet | y.mainframe64.irc.bnet.eu.org         | 6667/6697 (TLS) |
 
 ## Mycelium
 
